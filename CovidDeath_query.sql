@@ -93,7 +93,7 @@ AS
 )
 SELECT *, (rolling_people_vaccinated/population)*100
 FROM pop_vs_vac
---ORDER BY location, date; -- Pindahkan ORDER BY ke sini
+--ORDER BY location, date
 
 
 
